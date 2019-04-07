@@ -10,10 +10,9 @@
 def loop_iterator(number_of_times)
   counter = 0
   loop do
-    counter += 1
+    
     phrase "Welcome to Flatiron School's Web Development Course!"
-    if counter >= number_of_times
-      break if 
+      break if counter == number_of_times
     end
 end
 
